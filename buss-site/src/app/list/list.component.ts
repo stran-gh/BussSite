@@ -25,7 +25,6 @@ export class ListComponent implements OnInit {
   	this.searchService.stopsList.subscribe(
 			(resultList: string[]) => {
 				this.stopsList = resultList;
-				console.log(this.stopsList);
 			}
 	);
   }
